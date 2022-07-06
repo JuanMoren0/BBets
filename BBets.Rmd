@@ -57,10 +57,26 @@ duplicated(class)
 unique(duplicated(class))
 length((unique(class)))
 ```
+##how much money he made in 40 trails
+```{r}
+psudeobl <- numeric(length=40)
+for(j in 1:40){
+  
+brownlow=0
+for(i in 1:637){
+  class<-sample(days, size=35, replace = TRUE)
+  if (length(unique(class)) < 35) brownlow= brownlow+1 else brownlow= brownlow-2
+}
+psudeobl[j]=brownlow
+}
+```
 
-
-
-
+##print data
+```{r}
+psudeoblsorted <- sort(psudeobl)
+print(psudeoblsorted[18])
+print(psudeoblsorted[22])
+```
 
 
 
