@@ -62,6 +62,7 @@ psudeobl[j]=brownlow
 psudeoblsorted <- sort(psudeobl)
 mean(psudeoblsorted)
 ```
+This is Brownlow's profit for making his bet.
 
 
 ## the standard deviation and a 95% confidence interval for their earnings?
