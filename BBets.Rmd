@@ -122,7 +122,14 @@ Useing both mean and standard deviation we can prove that the right odds to make
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+```{r}
+SizeClass <- numeric(length=1000)
+for (K in 1:1000) {
+  SizeClass[K]= BrLw(numClass=28)
+}
 
+hist(SizeClass)
+```
 
 
 
