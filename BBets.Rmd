@@ -44,17 +44,11 @@ The function will be given a class_size by number of students, odds, and Number_
 
 
 
-##Data
+##Data for days and picking random days.
 ```{r}
 days<- c(1:365)
 class <- sample(days, size=35, replace = TRUE)
-sort(class)
-duplicated(class)
-unique(duplicated(class))
-length((unique(class)))
-```
-## How much money he made in 40 trias
-```{r}
+
 psudeobl <- numeric(length=40)
 for(j in 1:40){
   
@@ -67,7 +61,7 @@ psudeobl[j]=brownlow
 }
 ```
 
-##Avrage amount of profit
+##Avrage amount of profit from trials
 ```{r}
 psudeoblsorted <- sort(psudeobl)
 mean(psudeoblsorted)
