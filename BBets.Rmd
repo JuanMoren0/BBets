@@ -67,11 +67,10 @@ psudeobl[j]=brownlow
 }
 ```
 
-##print data
+##Avrage amount of profit
 ```{r}
 psudeoblsorted <- sort(psudeobl)
-print(psudeoblsorted[18])
-print(psudeoblsorted[22])
+mean(psudeoblsorted)
 ```
 
 
