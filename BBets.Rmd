@@ -74,7 +74,7 @@ This is Brownlow's profit for making his bet.
 brownlowsd<-sd(psudeoblsorted)
 print(brownlowsd)
 ```
-This is Brownlow's standard diviation.
+This is Brownlow's standard deviation.
 
 
 ### The 95% confidence interval
