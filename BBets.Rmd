@@ -47,17 +47,13 @@ The function will be given a class_size by number of students, odds, and Number_
 ##Data
 ```{r}
 days<- c(1:365)
-```
-
-##Data sample
-```{r}
 class <- sample(days, size=35, replace = TRUE)
 sort(class)
 duplicated(class)
 unique(duplicated(class))
 length((unique(class)))
 ```
-##how much money he made in 40 trails
+## How much money he made in 40 trias
 ```{r}
 psudeobl <- numeric(length=40)
 for(j in 1:40){
