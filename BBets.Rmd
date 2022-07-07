@@ -57,7 +57,7 @@ psudeobl[j]=brownlow
 
 
 
-## what is their average earnings
+## what is their average earnings?
 ```{r}
 psudeoblsorted <- sort(psudeobl)
 brownlowmean<- mean(psudeoblsorted)
@@ -74,13 +74,16 @@ This is Brownlow's profit for making his bet.
 brownlowsd<-sd(psudeoblsorted)
 print(brownlowsd)
 ```
+This is Brownlow's standard diviation.
+
+
 ### The 95% confidence interval
 ```{r}
 confidenceinterval<- qnorm(0.95)*brownlowsd/sqrt(40)
 print(confidenceinterval)
 ```
 
-
+Here is Brownlow's Confidence interval.
 
 
 
