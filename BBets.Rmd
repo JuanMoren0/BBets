@@ -131,6 +131,7 @@ for (K in 1:1000) {
 hist(SizeClass)
 ```
 
+As seen in the chart the only time a 2:1 would be fair is if there is a class with 28 students or attendees.    
 
 
 
@@ -139,4 +140,4 @@ hist(SizeClass)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
-
+After seeing and messing with the function I can say that Brownlow is constantly gaining money and should increase the pay out or take the bet with a smaller classroom. But seeing the bet is about making money it is unlikely they will do so.  
